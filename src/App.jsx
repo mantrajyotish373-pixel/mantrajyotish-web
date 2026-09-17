@@ -22,6 +22,8 @@ import Deposit from "./pages/Deposit";
 import TransactionHistory from "./pages/TransactionHistory";
 import ChatHistoryDetails from "./pages/ChatHistoryDetails";
 import Pooja from "./component/Pooja";
+import AstroStore from "./pages/AstroStore";
+import Solutions from "./pages/Solutions";
 
 function ProtectedRoute({ children, featureName }) {
   const { isLoggedIn, triggerLoginModal, justLoggedOut } = useAuth();
@@ -117,7 +119,6 @@ function AppContent() {
             </ProtectedRoute>
           }
         />
-        <Route path="/pooja" element={<Pooja />} />
         <Route
           path="/wallet"
           element={
@@ -176,6 +177,11 @@ function AppContent() {
         />
 
         {/* Public Routes */}
+        <Route path="/pooja" element={<Pooja />} />
+        <Route path="/astro-store" element={<AstroStore />} />
+        <Route path="/astrostore" element={<AstroStore />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/solution" element={<Solutions />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/chat-session/:name" element={<ChatSession />} />
         <Route path="/call" element={<Call />} />

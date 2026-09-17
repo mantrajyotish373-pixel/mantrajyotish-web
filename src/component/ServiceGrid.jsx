@@ -18,17 +18,31 @@ const services = [
     offer: true,
   },
   {
-    title: "Astro History",
-    sub: "Astrology Readings",
-    img: "https://res.cloudinary.com/dwbhbwgz9/image/upload/f_auto,q_auto/v1/astro_male_pic_5",
-    path: "/astro-history",
-    offer: false,
-  },
-  {
     title: "Pooja",
     sub: "Personalised Pooja",
     img: poojaImg,
     path: "/pooja",
+    offer: false,
+  },
+  {
+    title: "Astro Store",
+    sub: "Rudraksha & Gemstones",
+    img: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=400&q=80",
+    path: "/astro-store",
+    offer: false,
+  },
+  {
+    title: "Solutions",
+    sub: "Samadhan & Guidance",
+    img: "https://images.unsplash.com/photo-1606293926075-69a00dbfde81?auto=format&fit=crop&w=400&q=80",
+    path: "/solutions",
+    offer: false,
+  },
+  {
+    title: "Astro History",
+    sub: "Astrology Readings",
+    img: "https://res.cloudinary.com/dwbhbwgz9/image/upload/f_auto,q_auto/v1/astro_male_pic_5",
+    path: "/astro-history",
     offer: false,
   },
 ];
