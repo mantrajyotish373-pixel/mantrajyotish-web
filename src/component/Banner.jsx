@@ -5,22 +5,22 @@ import { useNavigate } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import banner1 from "../assets/banner1.png";
-import banner2 from "../assets/banner2.png";
-import banner3 from "../assets/banner3.png";
+import banner1 from "../assets/banner1.webp";
+import banner2 from "../assets/banner2.webp";
+import banner3 from "../assets/banner3.webp";
 
 const banners = [
   {
     image: banner1,
-    route: "/call",
+    route: "/wallet",
   },
   {
     image: banner2,
-    route: "/call",
+    route: "/chat",
   },
   {
     image: banner3,
-    route: "/chat",
+    route: "/pooja",
   },
 ];
 
